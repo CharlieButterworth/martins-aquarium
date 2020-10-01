@@ -27,9 +27,8 @@ section, article, aside {
 }
 
 .tipsList {
-    padding: 2em;
+    padding: 1em;
+    background-color: cyan;
+    align-items: center;
 }
 
-.tipsList {
-    background-color: cyan;
-}

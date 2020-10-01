@@ -2,9 +2,18 @@
     background-color: burlywood;
     display: flex;
     border: 2px dotted black;
-    
+    justify-content: space-around;
+
 }
 
 .fishList {
     text-align: center;
+    padding-right: 5em;
+}
+
+.fish {
+    border: 2px dotted red;
+    flex-basis: auto;
+    /* padding: 1em; */
+    flex-wrap: wrap;
 }
