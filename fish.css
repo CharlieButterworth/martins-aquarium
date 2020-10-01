@@ -1,0 +1,10 @@
+.fishList {
+    background-color: burlywood;
+    display: flex;
+    border: 2px dotted black;
+    
+}
+
+.fishList {
+    text-align: center;
+}
