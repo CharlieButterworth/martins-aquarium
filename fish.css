@@ -1,17 +1,56 @@
 .fishList {
-    background-color: burlywood;
+    background-color: tan;
     display: flex;
-    border: 2px dotted black;
-    justify-content: space-around;
-    text-align: center;
-    padding-right: 5em;
+    border: 2px dotted ;
+}
+
+
+
+.container__zero {
+    display: flex;
+    flex-flow: column;
+    border: 10px double palegreen;
+
+}
+
+.container__one {
+    display: flex;
+    flex-flow: column;
+    border: dotted red;
+}
+
+.container__two {
+    display: flex;
+    flex-flow: column;
+    border:dotted black;
+
+}
+
+.container__three{
+    display: flex;
+    flex-flow: column;
+border: dotted blue;
+
+}
+
+.container__four {
+    display: flex;
+    flex-flow: column;
+    border:dotted coral;
+
+}
+
+.container {
+    display: flex;
+    flex-flow: column;
+    border:dotted coral;
 
 }
 
 
 .fish {
-    border: 2px dotted red;
+    border: 2px dotted 
     flex-basis: auto;
     flex-wrap: wrap;
-   flex-shrink: 6em;
 }
+

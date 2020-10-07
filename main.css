@@ -5,8 +5,12 @@ header {
 }
 
 img {
-    width: 25%;
+    width: 45%;
+}
 
+
+.tips__jar {
+    padding-bottom: 10em;
 }
 
 .contentContainer {
@@ -27,12 +31,15 @@ section, article, aside {
 }
 
 .tipsList {
-    padding: 1em;
+    
     background-color: cyan;
     align-items: center;
+    
 }
 
 
 .contentContainter__left {
     text-align: center;
 }
+
+
