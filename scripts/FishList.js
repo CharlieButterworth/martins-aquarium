@@ -10,7 +10,7 @@ const fishes = useFish
 
 let fishHTMLRepresentations = ""
 for (const fish of fishes) {
-    fishHTMLRepresentations += Fish(fish)
+    fishHTMLRepresentations = Fish(fish)
 }
 
 
