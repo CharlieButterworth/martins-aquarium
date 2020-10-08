@@ -1,20 +1,22 @@
 
 import { useFish } from "./FishDataProvider.js"
-
+import { Fish } from "./Fish.js"
 
 export const FishList = () => {
     const contentElement = document.querySelector(".contentContainer__left")
 
 
 
-const fishes = useFish
+const fishes = useFish()
 
 
 
 let fishHTMLRepresentations = ""
-for (const fish of Fish) {
-    fishHTMLRepresentations = fish(Fish)
+for (const fish of fishes) {
+    fishHTMLRepresentations += Fish(fish)
+    console.log(fish)
 }
+
 
 
 contentElement.innerHTML += `

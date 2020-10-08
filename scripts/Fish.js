@@ -1,4 +1,4 @@
-export const fish = (fishObj) => {
+export const Fish = (fishObj) => {
     return `<div class="fishcontainer">
     <p class="fish__Name">${fishObj.name}</p>
     <p class="fish__Image"><img src=${fishObj.image}></p>
