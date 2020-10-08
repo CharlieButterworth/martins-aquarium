@@ -9,9 +9,11 @@ export const FishList = () => {
 
 const fishes = useFish
 
+
+
 let fishHTMLRepresentations = ""
-for (const fish of fishes) {
-    fishHTMLRepresentations = Fish(fish)
+for (const fish of Fish) {
+    fishHTMLRepresentations = fish(Fish)
 }
 
 
@@ -24,24 +26,3 @@ ${fishHTMLRepresentations}
 </section>
 `
 }
-
-
-
-
-export const FishList = () => {
-    const contentElement = document.querySelector(".container__left")
-
-
-    console.log(contentElement)
-
-    contentElement.innerHTML += `
-<section class="fishList">
-    <h3>Fish List</h3>
-    <div class="fishcontainer">
-    Placeholder for list of fishes
-</div>
-    </section>
-
-`
-}
-
