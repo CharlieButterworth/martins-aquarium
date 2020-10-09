@@ -8,7 +8,7 @@ const fishCollection = [
     {
         name: "Ricky",
         food: "Fish, Algea",
-        length: 12.3-15.2,
+        length: 10,
         location: "Amazon River Basin",
         species: "Symphysodon aequifasciatus",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/440px-Blue_Discus.jpg"
@@ -16,7 +16,7 @@ const fishCollection = [
     {
         name: "Ricky's Twin",
         food: "Carrots, Apples",
-        length: 12.3-15.2,
+        length: 3,
         location: "Greece",
         species: "Symphysodon aequifasciatus",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/440px-Blue_Discus.jpg"
@@ -24,7 +24,7 @@ const fishCollection = [
     {
         name: "Ricky's Half Brother",
         food: "cereal, worms, insects",
-        length: 12.3-15.2,
+        length: 25,
         location: "Japan",
         species: "Symphysodon aequifasciatus",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/440px-Blue_Discus.jpg"
@@ -32,7 +32,7 @@ const fishCollection = [
     {
         name: "Ricky's cousin",
         food: "Pizza, cheese",
-        length: 12.3-15.2,
+        length: 12,
         location: "USA",
         species: "Symphysodon aequifasciatus",
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/440px-Blue_Discus.jpg"
@@ -45,3 +45,29 @@ export const useFish = () => {
 export const addFish = (fishObj) => {
     fishCollection.push(fishObj)
 }
+
+
+export const mostHolyFish = () => {
+    // 3, 6, 9, 12, etc... fish
+    const holyFish = []
+
+    for (const fish of fishCollection) {
+        if (fish.length % 3 === 0)
+        // console.log(fish)
+        holyFish.push(fish)
+
+    }
+
+    return holyFish
+}
+
+// export const soldierFish () => {
+//     // 5, 10, 15, 20, 25, etc... fish
+
+//     return soldiers
+// }
+
+// export const nonHolyFish () => {
+//     // Any fish not a multiple of 3 or 5
+//     return regularFish
+// }

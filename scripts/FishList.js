@@ -1,5 +1,5 @@
 
-import { useFish } from "./FishDataProvider.js"
+import { mostHolyFish, useFish } from "./FishDataProvider.js"
 import { Fish } from "./Fish.js"
 
 export const FishList = () => {
@@ -7,7 +7,8 @@ export const FishList = () => {
 
 
 
-const fishes = useFish()
+const fishes = mostHolyFish()
+
 
 
 
