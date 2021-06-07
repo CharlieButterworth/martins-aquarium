@@ -15,7 +15,7 @@ const fishCollection = [
     },
     {
         name: "Ricky's Twin",
-        food: "Carrots, Apples",
+        food: "Carrots, Apples, Bananas",
         length: 3,
         location: "Greece",
         species: "Symphysodon aequifasciatus",
@@ -30,7 +30,7 @@ const fishCollection = [
         image: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Blue_Discus.jpg/440px-Blue_Discus.jpg"
     },
     {
-        name: "Ricky's cousin",
+        name: "Ricky's 3rd cousin",
         food: "Pizza, cheese",
         length: 12,
         location: "USA",
