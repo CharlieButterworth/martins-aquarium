@@ -22,6 +22,7 @@ for (const fish of arrayOfFish) {
 
 export const FishList = () => {
     const contentElement = document.querySelector(".contentContainer__left")
+    //this is how to target the DOM
 
 const holyFishes = mostHolyFish()
 
